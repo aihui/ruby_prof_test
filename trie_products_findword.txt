@@ -1,0 +1,13 @@
+Thread ID: 2148237740
+Total: 0.000049
+
+ %self     total     self     wait    child    calls  name
+ 30.61      0.00     0.00     0.00     0.00        1  String#each_byte
+ 26.53      0.00     0.00     0.00     0.00        1  Global#[No method]
+ 14.29      0.00     0.00     0.00     0.00        1  Dictionary#walk
+ 14.29      0.00     0.00     0.00     0.00        1  Dictionary#find
+  8.16      0.00     0.00     0.00     0.00        1  Hash#[]
+  4.08      0.00     0.00     0.00     0.00        1  NilClass#nil?
+  2.04      0.00     0.00     0.00     0.00        1  Hash#default
+
+

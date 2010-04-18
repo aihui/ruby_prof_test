@@ -1,0 +1,32 @@
+#require 'rubygems'
+#require 'ruby-prof'
+#require 'unprof'
+require "dictionary_array"
+
+d = Dictionary.new
+file = File.open("datasets.txt", "r")
+#file = File.open("nordstorm.csv", "r")
+search_text = "fi"
+
+#read file and put words into dictionary
+RubyProf.start
+  file.each do |data|
+   d.add(data)
+  end
+result = RubyProf.stop
+File.open "addresult.txt", 'w' do |file|
+ RubyProf::FlatPrinter.new(result).print(file)
+end
+
+
+#printer = RubyProf::FlatPrinter.new(addresult)
+#printer.print(File.open( 'addresult.txt', "w"), 0)
+
+
+#find words that begin with fi
+#findresult = RubyProf.profile do
+#  found = d.find(search_text)
+#end  
+
+#printer = RubyProf::FlatPrinter.new(findresult)
+#printer.print(STDOUT, 0)

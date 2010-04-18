@@ -1,0 +1,10 @@
+Thread ID: 2148237740
+Total: 0.065530
+
+ %self     total     self     wait    child    calls  name
+ 42.72      0.04     0.03     0.00     0.01     9400  Dictionary#add
+ 42.71      0.07     0.03     0.00     0.04        1  IO#each
+ 14.52      0.01     0.01     0.00     0.00     9400  Array#<<
+  0.04      0.07     0.00     0.00     0.07        1  Global#[No method]
+
+

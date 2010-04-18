@@ -1,0 +1,27 @@
+Thread ID: 2148237740
+Total: 0.535268
+
+ %self     total     self     wait    child    calls  name
+ 11.91      0.06     0.06     0.00     0.00    41924  String#[]
+  9.98      0.06     0.05     0.00     0.01    41924  Hash#[]
+  8.50      0.25     0.05     0.00     0.21     3003  Dictionary#add(d4)
+  8.39      0.34     0.04     0.00     0.29     3007  Dictionary#add(d3)
+  8.12      0.40     0.04     0.00     0.36     3007  Dictionary#add(d2)
+  7.87      0.46     0.04     0.00     0.42     3008  Dictionary#add(d1)
+  7.86      0.53     0.04     0.00     0.48     3008  Dictionary#add
+  7.78      0.18     0.04     0.00     0.14     2903  Dictionary#add(d5)
+  6.29      0.11     0.03     0.00     0.08     2540  Dictionary#add(d6)
+  4.48      0.02     0.02     0.00     0.00    23970  String#size
+  4.45      0.02     0.02     0.00     0.00    23970  Fixnum#==
+  4.06      0.06     0.02     0.00     0.04     1852  Dictionary#add(d7)
+  3.21      0.02     0.02     0.00     0.00    13913  Hash#[]=
+  2.13      0.01     0.01     0.00     0.00    10905  Hash#default
+  2.04      0.03     0.01     0.00     0.02     1020  Dictionary#add(d8)
+  1.76      0.54     0.01     0.00     0.53        1  IO#each
+  0.83      0.01     0.00     0.00     0.01      430  Dictionary#add(d9)
+  0.28      0.00     0.00     0.00     0.00      149  Dictionary#add(d10)
+  0.06      0.00     0.00     0.00     0.00       40  Dictionary#add(d11)
+  0.01      0.54     0.00     0.00     0.54        1  Global#[No method]
+  0.01      0.00     0.00     0.00     0.00        3  Dictionary#add(d12)
+
+
